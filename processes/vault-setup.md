@@ -8,6 +8,13 @@ interfaces. When in doubt, the command-line client will probably have the
 required features. However, the UI also has a builtin command-line client that
 you can use.
 
+- [Vault Setup](#vault-setup)
+  - [Steps](#steps)
+    - [Key Creation and Unsealing](#key-creation-and-unsealing)
+    - [Signing in with the Root Token](#signing-in-with-the-root-token)
+    - [Setting up and Using Secrets](#setting-up-and-using-secrets)
+    - [Adding Users and Policies](#adding-users-and-policies)
+
 Steps
 -----
 

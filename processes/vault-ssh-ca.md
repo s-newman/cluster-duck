@@ -5,6 +5,11 @@ Once [HashiCorp Vault has been set up](vault-setup.md), it can be configured to
 act as an SSH Certificate Authority. This will make the management of SSH keys
 much easier, since we won't have to manage key distribution.
 
+- [Vault SSH CA](#vault-ssh-ca)
+  - [Steps](#steps)
+    - [Client Key Signing Setup](#client-key-signing-setup)
+    - [Getting Access](#getting-access)
+
 ## Steps
 
 These steps are largely taken from the [Vault documentation](https://www.vaultproject.io/docs/secrets/ssh/signed-ssh-certificates.html)

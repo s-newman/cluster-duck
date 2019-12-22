@@ -14,6 +14,17 @@ following `nova` nodes were active:
 Another guide will cover adding new nodes to the cluster, and this guide should
 cover adding nodes to Ceph as well.
 
+- [Ceph Deployment](#ceph-deployment)
+  - [Steps](#steps)
+    - [Setup](#setup)
+    - [Clean up Old Deployment](#clean-up-old-deployment)
+    - [Install the Ceph Cluster](#install-the-ceph-cluster)
+    - [Adding the OSDs](#adding-the-osds)
+    - [Configuring the Pools](#configuring-the-pools)
+    - [Configuring the Clients](#configuring-the-clients)
+    - [Reconfiguring](#reconfiguring)
+    - [Backup and Restore](#backup-and-restore)
+
 Steps
 -----
 
